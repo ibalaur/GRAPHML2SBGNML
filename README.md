@@ -12,8 +12,8 @@ Compatible formats:
 
 To find more information, please check the [Wiki](https://github.com/ibalaur/GRAPHML2SBGNML/wiki). The javadoc documentation for the source files is available [here](https://github.com/ibalaur/GRAPHML2SBGNML/wiki/Code-documentation) and the full application can be directly donwloaded from here.
 
-Known issues are included in the [issues](https://github.com/ibalaur/GRAPHML2SBGNML/issues)
-and the limitations of the tool are listed on the [Limitations](https://github.com/ibalaur/GRAPHML2SBGNML/wiki/Limitations) page from the Wiki.
+Known issues are shown in the [issues](https://github.com/ibalaur/GRAPHML2SBGNML/issues) group
+and the limitations of the tool are listed on the [Limitations](https://github.com/ibalaur/GRAPHML2SBGNML/wiki/Limitations) page.
 
 ## Requirements
 
@@ -36,7 +36,7 @@ the selected log file.
 
 ## Contributions and issues
 
-If you have any suggestions or want to report a bug, don't hesitate to create an [issue](https://github.com/ibalaur/GRAPHML2SBGNML/issues_.
+If you have any suggestions or want to report a bug, don't hesitate to create an [issue](https://github.com/ibalaur/GRAPHML2SBGNML/issues).
 Pull requests and all forms of contribution will be warmly welcomed.
 
 ## Useful links
