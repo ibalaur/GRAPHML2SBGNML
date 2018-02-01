@@ -1,21 +1,18 @@
-# GRAPHML2SBGNML
-Translation between GraphML (yEd) and SBGN-ML
+# GRAPHML2SBGNML - Bidirectional translation between GraphML [yEd] (https://www.yworks.com/products/yed) and [SBGN-ML] ((https://github.com/sbgn/sbgn/wiki/SBGN_ML))
 
-## Project
-
-The aim is to provide the most accurate translation possible between
+The aim is to provide the most accurate translation for metabolic networks between
 [GraphML (yEd)](https://www.yworks.com/products/yed)
 and [SBGN-ML](https://sbgn.github.io/sbgn/) file formats.
 Translation in both direction is possible. This project should ultimately be integrated into
 [SBFC](https://www.ebi.ac.uk/biomodels/tools/converters/).
 
 Compatible formats:
- - SBGN-ML 0.2 (PD)
+ - SBGN-ML 0.2 (Process Description)
  - yEd 3.17.1
 
-!--To download the full app directly, go to the [release page](https://github.com/royludo/cd2sbgnml/releases).
+<!--To download the full app directly, go to the [release page](https://github.com/royludo/cd2sbgnml/releases).>
 
-!--More information can be found in the [Wiki](https://github.com/royludo/cd2sbgnml/wiki).
+<!--More information can be found in the [Wiki](https://github.com/royludo/cd2sbgnml/wiki).>
 
 To find more information, please check the [Wiki].  Javadoc is available [here] and the full application can be directly donwloaded from here.
 
