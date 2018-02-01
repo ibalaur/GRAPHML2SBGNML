@@ -57,6 +57,7 @@ Pull requests and all forms of contribution will be warmly welcomed.
 ## Acknowledgements
 
 This work has been initiated at [EISBM](http://www.eisbm.org/) in collaboration with Dr. Alexander Mazein and Ludovic Roy, with Vasundra Toure from [NTNU](https://www.ntnu.edu/about), and with the Disease Maps community.
+
 This work has been supported by the Innovative Medicines Initiative Joint Undertaking under grant agreement no. IMI 115446 (eTRIKS), resources of which are composed of financial contribution from the European Union’s Seventh Framework Programme (FP7/2007-2013) and EFPIA companies.
 
 
