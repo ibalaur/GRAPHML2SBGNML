@@ -43,9 +43,9 @@ Pull requests and all forms of contribution will be warmly welcomed.
 
  - More details about the [SBGN-ML format](https://github.com/sbgn/sbgn/wiki/SBGN_ML)
  - [SBFC doc](http://sbfc.sourceforge.net/mediawiki/index.php/Main_Page)
- - The [yEd Graph Editor] (https://www.yworks.com/products/yed) framework
- - A useful tool for translation between CellDesigner to SBGN-ML (bidirectional conversion) is [CD2SBGMML] (https://github.com/royludo/cd2sbgnml)
- - More details about the [eTRIKS] (https://www.etriks.org/) Project and the [Disease Maps] Project, (http://disease-maps.org/)
+ - The [yEd Graph Editor](https://www.yworks.com/products/yed) framework
+ - A useful tool for translation between CellDesigner to SBGN-ML (bidirectional conversion) is [CD2SBGMML](https://github.com/royludo/cd2sbgnml)
+ - More details about the [eTRIKS](https://www.etriks.org/) Project and the [Disease Maps](http://disease-maps.org/) Project 
 
 ## Acknowledgements
 
