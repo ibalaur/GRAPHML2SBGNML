@@ -1,4 +1,4 @@
-# GraphML2SBGN-ML - Bidirectional translation between GraphML and SBGN-ML
+# GraphML2SBGN-ML - Bidirectional translation between GraphML (yEd Graph Editor) and SBGN-ML
 
 The aim is to provide the most accurate translation for metabolic networks between
 [GraphML (yEd)](https://www.yworks.com/products/yed)
