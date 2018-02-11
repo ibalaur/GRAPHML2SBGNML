@@ -1,0 +1,133 @@
+﻿<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<sbgn 
+  xmlns="http://sbgn.org/libsbgn/0.2">
+  <map id="ex5-metabolic-SBGN-ED.sbgn" language="process description">
+    <extension>
+      <renderInformation 
+        xmlns="http://www.sbml.org/sbml/level3/version1/render/version1" id="renderInformation" programName="sbgnviz" programVersion="4.1.0" backgroundColor="#000000">
+        <listOfColorDefinitions>
+          <colorDefinition id="color_1" value="#ffffff7f"/>
+          <colorDefinition id="color_2" value="#555555"/>
+          <colorDefinition id="color_3" value="#4aff4e7f"/>
+          <colorDefinition id="color_4" value="#ff1e317f"/>
+        </listOfColorDefinitions>
+        <listOfStyles>
+          <style id="nodeffffff0.55551.2511normalnormalHelvetica" idList="glyph1 glyph5 glyph4 glyph6">
+            <g fontSize="11" fontFamily="Helvetica" fontWeight="normal" fontStyle="normal" stroke="color_2" strokeWidth="1.25" fill="color_1"/>
+          </style>
+          <style id="node4aff4e0.55551.2511normalnormalHelvetica" idList="glyph2">
+            <g fontSize="11" fontFamily="Helvetica" fontWeight="normal" fontStyle="normal" stroke="color_2" strokeWidth="1.25" fill="color_3"/>
+          </style>
+          <style id="nodeff1e310.55551.2511normalnormalHelvetica" idList="glyph3">
+            <g fontSize="11" fontFamily="Helvetica" fontWeight="normal" fontStyle="normal" stroke="color_2" strokeWidth="1.25" fill="color_4"/>
+          </style>
+          <style id="nodeffffff0.55551.25" idList="glyph7">
+            <g stroke="color_2" strokeWidth="1.25" fill="color_1"/>
+          </style>
+          <style id="edge5551.25" idList="arc1 arc2 arc3 arc4 arc5 arc6">
+            <g stroke="color_2" strokeWidth="1.25"/>
+          </style>
+        </listOfStyles>
+      </renderInformation>
+      <mapProperties>
+        <compoundPadding>10</compoundPadding>
+        <extraCompartmentPadding>14</extraCompartmentPadding>
+        <extraComplexPadding>10</extraComplexPadding>
+        <arrowScale>1.25</arrowScale>
+        <showComplexName>true</showComplexName>
+        <dynamicLabelSize>regular</dynamicLabelSize>
+        <inferNestingOnLoad>false</inferNestingOnLoad>
+        <fitLabelsToNodes>false</fitLabelsToNodes>
+        <fitLabelsToInfoboxes>false</fitLabelsToInfoboxes>
+        <recalculateLayoutOnComplexityManagement>true</recalculateLayoutOnComplexityManagement>
+        <rearrangeOnComplexityManagement>true</rearrangeOnComplexityManagement>
+        <animateOnDrawingChanges>true</animateOnDrawingChanges>
+        <adjustNodeLabelFontSizeAutomatically>false</adjustNodeLabelFontSizeAutomatically>
+        <enablePorts>true</enablePorts>
+        <allowCompoundNodeResize>false</allowCompoundNodeResize>
+        <mapColorScheme>black_white</mapColorScheme>
+        <defaultInfoboxHeight>12</defaultInfoboxHeight>
+        <defaultInfoboxWidth>30</defaultInfoboxWidth>
+        <mapName>Pathway #sbgn-network-container-0</mapName>
+        <mapDescription/>
+      </mapProperties>
+    </extension>
+    <glyph id="glyph1" class="simple chemical">
+      <label text="Succinate"/>
+      <bbox x="320" y="415" w="120" h="50"/>
+    </glyph>
+    <glyph id="glyph2" class="simple chemical">
+      <label text="Coenzyme A"/>
+      <bbox x="465" y="375" w="120" h="50"/>
+    </glyph>
+    <glyph id="glyph5" class="simple chemical">
+      <label text="GDP"/>
+      <bbox x="225" y="370" w="60" h="60"/>
+    </glyph>
+    <glyph id="glyph3" class="simple chemical">
+      <label text="Succinyl-CoA"/>
+      <bbox x="320" y="205" w="120" h="50"/>
+    </glyph>
+    <glyph id="glyph4" class="simple chemical">
+      <label text="H20"/>
+      <bbox x="480" y="250" w="60" h="60"/>
+    </glyph>
+    <glyph id="glyph6" class="simple chemical">
+      <label text="GTP"/>
+      <bbox x="230" y="245" w="60" h="60"/>
+    </glyph>
+    <glyph id="glyph7" class="process">
+      <bbox x="368" y="318" w="24" h="24"/>
+      <port id="glyph7.2" x="380" y="354"/>
+      <port id="glyph7.1" x="380" y="306"/>
+    </glyph>
+    <arc id="arc1" class="production" source="glyph7.2" target="glyph1">
+      <glyph id="arc1_card" class="cardinality">
+        <label text="0"/>
+        <bbox x="0" y="0" w="0" h="0"/>
+      </glyph>
+      <start x="380" y="354.625"/>
+      <end x="380" y="410.875"/>
+    </arc>
+    <arc id="arc2" class="production" source="glyph7.2" target="glyph2">
+      <glyph id="arc2_card" class="cardinality">
+        <label text="0"/>
+        <bbox x="0" y="0" w="0" h="0"/>
+      </glyph>
+      <start x="380" y="354.625"/>
+      <end x="481.81269060685844" y="379.1509540860696"/>
+    </arc>
+    <arc id="arc3" class="production" source="glyph7.2" target="glyph5">
+      <glyph id="arc3_card" class="cardinality">
+        <label text="0"/>
+        <bbox x="0" y="0" w="0" h="0"/>
+      </glyph>
+      <start x="380" y="354.625"/>
+      <end x="284.77426779428424" y="383.32641003520087"/>
+    </arc>
+    <arc id="arc4" class="production" source="glyph7.1" target="glyph3">
+      <glyph id="arc4_card" class="cardinality">
+        <label text="0"/>
+        <bbox x="0" y="0" w="0" h="0"/>
+      </glyph>
+      <start x="380" y="305.375"/>
+      <end x="380" y="259.125"/>
+    </arc>
+    <arc id="arc5" class="production" source="glyph7.1" target="glyph4">
+      <glyph id="arc5_card" class="cardinality">
+        <label text="0"/>
+        <bbox x="0" y="0" w="0" h="0"/>
+      </glyph>
+      <start x="380" y="305.375"/>
+      <end x="478.1495811883206" y="292.2501610814151"/>
+    </arc>
+    <arc id="arc6" class="production" source="glyph7.1" target="glyph6">
+      <glyph id="arc6_card" class="cardinality">
+        <label text="0"/>
+        <bbox x="0" y="0" w="0" h="0"/>
+      </glyph>
+      <start x="380" y="305.375"/>
+      <end x="291.02183708126745" y="289.21834199558094"/>
+    </arc>
+  </map>
+</sbgn>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <extension>
+            <renderInformation xmlns="http://www.sbml.org/sbml/level3/version1/render/version1" backgroundColor="#ffffff" id="renderInformation" programName="graphml2sbgn" programVersion="0.1">
+                <listOfColorDefinitions>
+                    <colorDefinition id="color_1" value="#ff1e317f"/>
+                    <colorDefinition id="color_2" value="#ffffff7f"/>
+                    <colorDefinition id="color_3" value="#4aff4e7f"/>
+                    <colorDefinition id="color_4" value="#555555"/>
+                    <colorDefinition id="color_5" value="#000000"/>
+                </listOfColorDefinitions>
+                <listOfStyles>
+                    <style id="style_1.25ffffff7f11.0555555" idList="glyph5 glyph4 glyph6 glyph1">
+                        <g fill="color_2" fontSize="11.0" stroke="color_4" strokeWidth="1.25"/>
+                    </style>
+                    <style id="style_1.254aff4e7f11.0555555" idList="glyph2">
+                        <g fill="color_3" fontSize="11.0" stroke="color_4" strokeWidth="1.25"/>
+                    </style>
+                    <style id="style_1.0000000" idList="arc1 arc6 arc3 arc2 arc5 arc4">
+                        <g fill="color_5" fontSize="1.0" stroke="color_5" strokeWidth="1.0"/>
+                    </style>
+                    <style id="style_1.25ff1e317f11.0555555" idList="glyph3">
+                        <g fill="color_1" fontSize="11.0" stroke="color_4" strokeWidth="1.25"/>
+                    </style>
+                    <style id="style_1.25ffffff7f12.0555555" idList="glyph7">
+                        <g fill="color_2" fontSize="12.0" stroke="color_4" strokeWidth="1.25"/>
+                    </style>
+                </listOfStyles>
+            </renderInformation>
+        </extension>
+        <glyph class="simple chemical" id="glyph1">
+            <notes>
+                <data xmlns:ns2="http://sbgn.org/libsbgn/0.2" xmlns="" key="d4"/>
+            </notes>
+            <extension>
+                <annotation xmlns:ns2="http://sbgn.org/libsbgn/0.2" xmlns="">
+                    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                        <rdf:Description rdf:about="#glyph1"/>
+                    </rdf:RDF>
+                </annotation>
+            </extension>
+            <label text="Succinate"/>
+            <bbox w="120.0" h="50.0" x="320.0" y="415.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="glyph2">
+            <notes>
+                <data xmlns:ns2="http://sbgn.org/libsbgn/0.2" xmlns="" key="d4"/>
+            </notes>
+            <extension>
+                <annotation xmlns:ns2="http://sbgn.org/libsbgn/0.2" xmlns="">
+                    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                        <rdf:Description rdf:about="#glyph2"/>
+                    </rdf:RDF>
+                </annotation>
+            </extension>
+            <label text="Coenzyme A"/>
+            <bbox w="120.0" h="50.0" x="465.0" y="375.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="glyph5">
+            <notes>
+                <data xmlns:ns2="http://sbgn.org/libsbgn/0.2" xmlns="" key="d4"/>
+            </notes>
+            <extension>
+                <annotation xmlns:ns2="http://sbgn.org/libsbgn/0.2" xmlns="">
+                    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                        <rdf:Description rdf:about="#glyph5"/>
+                    </rdf:RDF>
+                </annotation>
+            </extension>
+            <label text="GDP"/>
+            <bbox w="60.0" h="60.0" x="225.0" y="370.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="glyph3">
+            <notes>
+                <data xmlns:ns2="http://sbgn.org/libsbgn/0.2" xmlns="" key="d4"/>
+            </notes>
+            <extension>
+                <annotation xmlns:ns2="http://sbgn.org/libsbgn/0.2" xmlns="">
+                    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                        <rdf:Description rdf:about="#glyph3"/>
+                    </rdf:RDF>
+                </annotation>
+            </extension>
+            <label text="Succinyl-CoA"/>
+            <bbox w="120.0" h="50.0" x="320.0" y="205.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="glyph4">
+            <notes>
+                <data xmlns:ns2="http://sbgn.org/libsbgn/0.2" xmlns="" key="d4"/>
+            </notes>
+            <extension>
+                <annotation xmlns:ns2="http://sbgn.org/libsbgn/0.2" xmlns="">
+                    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                        <rdf:Description rdf:about="#glyph4"/>
+                    </rdf:RDF>
+                </annotation>
+            </extension>
+            <label text="H20"/>
+            <bbox w="60.0" h="60.0" x="480.0" y="250.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="glyph6">
+            <notes>
+                <data xmlns:ns2="http://sbgn.org/libsbgn/0.2" xmlns="" key="d4"/>
+            </notes>
+            <extension>
+                <annotation xmlns:ns2="http://sbgn.org/libsbgn/0.2" xmlns="">
+                    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                        <rdf:Description rdf:about="#glyph6"/>
+                    </rdf:RDF>
+                </annotation>
+            </extension>
+            <label text="GTP"/>
+            <bbox w="60.0" h="60.0" x="230.0" y="245.0"/>
+        </glyph>
+        <glyph class="process" orientation="horizontal" id="glyph7">
+            <notes>
+                <data xmlns:ns2="http://sbgn.org/libsbgn/0.2" xmlns="" key="d4"/>
+            </notes>
+            <extension>
+                <annotation xmlns:ns2="http://sbgn.org/libsbgn/0.2" xmlns="">
+                    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                        <rdf:Description rdf:about="#glyph7"/>
+                    </rdf:RDF>
+                </annotation>
+            </extension>
+            <bbox w="24.0" h="24.0" x="368.0" y="318.0"/>
+            <port id="glyph7.1" x="380.0" y="354.0"/>
+            <port id="glyph7.2" x="380.0" y="306.0"/>
+        </glyph>
+        <arc class="production" id="arc1" source="glyph7.1" target="glyph1"/>
+        <arc class="production" id="arc2" source="glyph7.1" target="glyph2"/>
+        <arc class="production" id="arc3" source="glyph7.1" target="glyph5"/>
+        <arc class="production" id="arc4" source="glyph7.2" target="glyph3"/>
+        <arc class="production" id="arc5" source="glyph7.2" target="glyph4"/>
+        <arc class="production" id="arc6" source="glyph7.2" target="glyph6"/>
+    </map>
+</sbgn>
